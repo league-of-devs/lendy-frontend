@@ -1,0 +1,71 @@
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+    opacity: 1; /* Firefox */
+}
+
+#login{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#login .content{
+    width: 400px;
+    height: 100%;
+    padding: 0px 20px 20px 20px;
+}
+
+#login .logo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#login img{
+    display: block;
+    width: 75%;
+}
+
+#login form{
+    margin-top: 50px;
+}
+
+#login form input{
+    background: transparent;
+    border: 1.5px solid #ffffff;
+    border-radius: 25px;
+    padding: 14px 15px;
+    width: 100%;
+    font-size: 18px;
+    color: #fff;
+}
+
+#login form input + input{
+    margin-top: 15px;
+}
+
+#login form button{
+    margin-top: 30px;
+    padding: 10px 30px;
+}
+
+#login .goto-login{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #373737;
+}
+
+#login .goto-login + .goto-login{
+    margin-top: 0;
+}
+
+#login .goto-login a{
+    color: #373737;
+}

@@ -1,0 +1,18 @@
+#lendy-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#lendy-logo img{
+    margin-top: 0;
+    width: 300px;
+}
+
+@media(max-width: 650px){
+    #lendy-logo img{
+        width: 250px;
+    }
+}

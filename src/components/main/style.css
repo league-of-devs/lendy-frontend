@@ -1,0 +1,44 @@
+#main, #main .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+#main .logo{
+    width: 150px;
+}
+
+#main header{
+    margin-top: 50px;
+    width: auto;
+}
+
+#main header button, #main footer button{
+    padding: 10px 50px;
+}
+
+#main header button{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+#main header p, #main footer p{
+    color: #fff;
+    font-size: 18px;
+}
+
+#main footer{
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    width: 100%;
+}
+#main footer p{
+    margin-bottom: 25px;
+}
+#main footer button{
+    margin-left: 20px;
+}

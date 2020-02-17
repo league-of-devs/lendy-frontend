@@ -1,0 +1,37 @@
+#home, #home .content, #home header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+}
+#home .content, #home header{
+    flex-direction: column;
+}
+
+#home header p{
+    padding: 20px;
+    margin-top: 50px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+#home main .button-group{
+    margin-top: 50px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#home main button{
+    width: 100%;
+    padding: 15px 40px;
+}
+
+@media(max-width: 650px){
+    #home main .button-group{
+        display: flex;
+        flex-direction: column;
+    }
+}
