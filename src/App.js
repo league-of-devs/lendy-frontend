@@ -1,4 +1,10 @@
+// react
 import React from 'react'
+
+// router
+import { Switch, Route } from 'react-router-dom'
+
+// other components
 import Home from './components/home'
 import Register from './components/register'
 import WaitingResponse from './components/waiting_response'
@@ -6,7 +12,8 @@ import WhoAreWe from './components/who_are_we'
 import Login from './components/login'
 import Main from './components/main'
 import RequestForm from './components/request_form'
-import { Switch, Route } from 'react-router-dom'
+
+// css
 import './global.css'
 import './App.css'
 
