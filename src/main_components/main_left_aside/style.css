@@ -1,0 +1,24 @@
+#main-left-aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50px;
+}
+#main-left-aside{
+    left: 50px;
+}
+#main-left-aside .logo{
+    margin-bottom: 10px;
+    width: 150px;
+}
+#main-left-aside .button-group{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr;
+    width: 100%;
+}
+#main-left-aside .button-group button{
+    width: 100%;
+}

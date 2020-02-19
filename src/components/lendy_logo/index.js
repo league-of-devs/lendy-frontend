@@ -1,7 +1,13 @@
+// react
 import React from 'react'
-import './style.css'
+
+// img
 import logoLendy from './../../img/logo-lendy.svg'
 
+// css
+import './style.css'
+
+// component function
 function LendyLogo(){
     return(
         <div id="lendy-logo">
@@ -10,4 +16,5 @@ function LendyLogo(){
     )
 }
 
+// exporting...
 export default LendyLogo

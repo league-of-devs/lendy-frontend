@@ -1,0 +1,18 @@
+#main-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50px;
+    margin-bottom: 50px;
+}
+#main-header{
+    flex-direction: row;
+}
+#main-header .offer-button{
+    border-radius: 20px 0px 0px 20px;
+}
+#main-header .request-button{
+    border-radius: 0px 20px 20px 0px;
+}

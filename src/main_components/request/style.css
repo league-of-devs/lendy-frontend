@@ -1,0 +1,35 @@
+#request{
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 25px;
+}
+
+#request .line{
+    margin-top: 25px;
+    display: grid;
+    gap: 100px;
+    grid-template-columns: 1fr 1fr;
+}
+#request strong{
+    font-size: 22px;
+}
+#request p{
+    font-size: 12px;
+}
+#request .line button{
+    width: auto;
+    font-size: 16px;
+    padding: 0;
+    color: #fff;
+    background-color: #38d9a9;
+    border: 2px solid #38d9a9;
+}
+#request .line button:hover{
+    color: #38d9a9;
+    background-color: #fff;
+}
